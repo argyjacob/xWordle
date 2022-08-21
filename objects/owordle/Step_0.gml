@@ -3,8 +3,9 @@
 var _char = keyboard_lastchar; // Default variable that holds the last character that was pressed.
 
 //Detect if Enter Key was pressed
-if(keyboard_check_pressed(vk_enter)){
+if(keyboard_check_pressed(vk_enter) && currentCell == width){
     checkLine();
+	currentCell =0;
 }
 
 
