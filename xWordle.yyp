@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Classes","path":"scripts/Classes/Classes.yy",},"order":0,},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"oWordle","path":"objects/oWordle/oWordle.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

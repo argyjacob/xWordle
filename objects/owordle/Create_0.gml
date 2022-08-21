@@ -6,6 +6,12 @@ height = 6 // Tries
 cellsize = 120 // size of each cell in pixel size
 cellGap = 10   // Size of separation between each cell
 
+// THE WINNING WORD
+targetWord = "POWER"
+
+currentLine = 0;
+currentCell = 0;
+
 // Structure
 grid = [];
 

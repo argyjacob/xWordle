@@ -1,7 +1,7 @@
 
 function Cell() constructor {
 
-	char = "A"
+	char = ""
 	state = cellState.Inactive
 
     static Draw =	function (_x,_y, _size){
@@ -11,7 +11,12 @@ function Cell() constructor {
       draw_set_color(c_white)
 
       // Draw Character
-	  draw_text(_x,_y,char);
+	  draw_set_font(Font1);
+	  draw_set_halign(fa_center);
+	  draw_set_valign(fa_middle);
+	  draw_text(_x+_size/2,_y+_size/2,char);
+	  //draw_set_halign(fa_left);
+	  //draw_set_valign(fa_right);
 
 	}
 }
